@@ -1,0 +1,28 @@
+body {
+  background-color: #6a4ca1;
+  font-family: sans-serif;
+  padding: 15px;
+  color: white;
+}
+body h1, body h2, body h3, body h4, body h5, body p {
+  text-shadow: 3px 3px 3px #3f2e53;
+}
+
+a {
+  color: #e0b744;
+}
+
+a:visited {
+  color: #2e2538;
+}
+
+#main #content {
+  display: flex;
+}
+#main #content .generic {
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0px 0px 5px 3px #3f2e53;
+}
+
+/*# sourceMappingURL=main.css.map */

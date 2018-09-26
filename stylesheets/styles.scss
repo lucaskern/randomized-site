@@ -1,0 +1,48 @@
+//Naming convention
+// Block lvl      : name
+// Single element : one__Element 
+// modifier       : simple--modifier
+
+$mainC: rgb(106, 76, 161);
+$secondC: #3f2e53;
+
+$linkC: #e0b744;
+$linkVC: #2e2538;
+
+//general styles
+body {
+    background-color: $mainC;
+    font-family: sans-serif;
+    padding: 15px;
+
+    color: white;
+
+    h1, h2, h3, h4, h5, p {
+        text-shadow: 3px 3px 3px #3f2e53 
+    }
+}
+
+a {
+    color: $linkC;
+}
+
+a:visited {
+    color: $linkVC;
+}
+
+//block styles
+#main {
+    #title {
+
+    }
+
+    #content {
+        display: flex;
+
+        .generic {
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 0px 0px 5px 3px $secondC;
+        }
+    }
+}
